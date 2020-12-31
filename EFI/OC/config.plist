@@ -1082,7 +1082,7 @@
 			</dict>
 			<dict>
 				<key>Arguments</key>
-				<string></string>
+				<string>-b -n DSDT -z</string>
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
