@@ -28,21 +28,21 @@
 			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
 			<string>AppleUSBMergeNub</string>
-			<key>IOPathMatch</key>
-			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/EH01@1D/EH01@1d000000</string>
+			<key>IONameMatch</key>
+			<string>EH01</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBEHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>kUSBMuxEnabled</key>
-				<false/>
+				<true/>
 				<key>port-count</key>
 				<data>
-				AgAAAA==
+				CAAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
-					<key>PRT1</key>
+					<key>PR11</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>0</integer>
@@ -51,13 +51,67 @@
 						AQAAAA==
 						</data>
 					</dict>
-					<key>PRT2</key>
+					<key>PR12</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AgAAAA==
+						</data>
+					</dict>
+					<key>PR13</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>
+						AwAAAA==
+						</data>
+					</dict>
+					<key>PR14</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>
+						BAAAAA==
+						</data>
+					</dict>
+					<key>PR15</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>
+						BQAAAA==
+						</data>
+					</dict>
+					<key>PR16</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>
+						BgAAAA==
+						</data>
+					</dict>
+					<key>PR17</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>
+						BwAAAA==
+						</data>
+					</dict>
+					<key>PR18</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>
+						CAAAAA==
 						</data>
 					</dict>
 				</dict>
@@ -71,8 +125,8 @@
 			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
 			<string>AppleUSBMergeNub</string>
-			<key>IOPathMatch</key>
-			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/XHC@14/XHC@14000000</string>
+			<key>IONameMatch</key>
+			<string>XHC</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
