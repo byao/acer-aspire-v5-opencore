@@ -58,3 +58,8 @@ Details of all steps are in OpenCore guide.
 1. Restart and profit!
 
 1. <a href="https://www.buymeacoffee.com/byao" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
+## Fixes
+
+- [HiDPI Resolution Scaling](https://github.com/xzhih/one-key-hidpi)
